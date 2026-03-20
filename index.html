@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css.css">
+  <title>Clínica GüD</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background: #ffffff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    header img {
+      width: 20%;
+      height: auto;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background: #144d2c;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+
+    .map {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    footer {
+      background: #1f5f3a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      header img {
+        width: 90%;
+        height: auto;
+      }
+
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      iframe {
+        width: 100% !important;
+        height: 250px !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <img src="ChatGPT Image 19 mar 2026, 23_12_17.png" alt="Clínica GüD Logo"">
+    <!-- <h1>Clínica GüD</h1>
+    <p>Odontología Integral</p> -->
+  </header>
+
+  <!-- <nav>
+    <a href=" #inicio">Inicio</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#ubicacion">Ubicación</a>
+    </nav> -->
+
+    <section id="inicio">
+      <div class="card">
+        <h2>Bienvenidos a Clínica GüD</h2>
+        <br>
+        <br>
+        <p>Clínica GüD se dedica a la atención odontológica integral y familiar, con el propósito de acompañar y cuidar
+          a las personas en cada etapa de la vida.
+          Nuestra misión es brindar una atención de excelencia, cálida y cercana, que una salud, bienestar y confianza.
+          Nuestra visión es ser una clínica reconocida por ofrecer una experiencia humana, acogedora y elegante, donde
+          cada paciente sienta que está en buenas manos.</p>
+      </div>
+      <br>
+      <br>
+    </section>
+
+
+
+
+    <div class="contenedor">
+      <div class="social-buttons">
+
+         <a href="data:text/vcard;charset=utf-8,BEGIN%3AVCARD%0AVERSION%3A3.0%0AN%3AClinica%20G%C3%BCD%3B%0AFN%3AClinica%20G%C3%BCD%20Consulta%0AORG%3AClinica%20G%C3%BCD%0ATITLE%3ACl%C3%ADnica%20odontol%C3%B3gica%20familiar%0ATEL%3BTYPE%3DCELL%3A%2B56962023102%0AADR%3BTYPE%3DWORK%3A%3B%3BCarmen%20487%3BCuric%C3%B3%3BMaule%3B3450000%3BChile%0ANOTE%3ACl%C3%ADnica%20odontol%C3%B3gica%20familiar.%20Atenci%C3%B3n%20c%C3%A1lida%2C%20tecnolog%C3%ADa%20moderna%20y%20confianza.%0AEND%3AVCARD"
+      download="clinica_gud_contacto.vcf" class="btn-social contacto">
+          <div class="Redes_sociales">
+            <div class="imagenes_red_social">
+              <img src="5995295.png" alt="">
+            </div>
+            <div class="Texto_de_la_red_social">
+              <h1>Contactar</h1>
+              <div class="Invitacion_conectar">
+                <p>Guarde nuestro contacto</p>
+              </div>
+            </div>
+
+          </div>
+        </a>
+
+
+
+
+
+
+        <a href="www.instagram.com/clinica_gud?utm_source=qr&igsh=MXdsZmZnNXpzbXpzZA==" target="_blank"
+          class="btn-social instagram">
+          <div class="Redes_sociales">
+            <div class="imagenes_red_social">
+              <img src="Instagram_logo_2022.svg" alt="">
+            </div>
+            <div class="Texto_de_la_red_social">
+              <h1>Instagram</h1>
+              <div class="Invitacion_conectar">
+                <p>Conoce nuestro trabajo</p>
+              </div>
+            </div>
+
+          </div>
+        </a>
+
+        <a href="https://www.instagram.com/TU_USUARIO" target="_blank" class="btn-social whatsapp">
+          <div class="Redes_sociales">
+            <div class="imagenes_red_social">
+              <img src="WhatsApp.svg.webp" alt="">
+            </div>
+            <div class="Texto_de_la_red_social">
+              <h1>WhatsApp</h1>
+              <div class="Invitacion_conectar">
+                <p>Escríbenos y agenda tu cita</p>
+              </div>
+            </div>
+
+          </div>
+        </a>
+
+
+
+        <section id="ubicacion">
+          <div class="card">
+            <h2>¿Donde Estamos?</h2>
+            <br>
+            <p>Clínica GüD está ubicada en Santiago de Chile, en un punto estratégico de fácil acceso.
+              Contamos con instalaciones modernas y un ambiente pensado para tu comodidad y tranquilidad.</p>
+            <br>
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4132.842682314163!2d-71.2412001233223!3d-34.9861999778001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96645712b37cc0c7%3A0xc28200e6c8bc73cd!2sCl%C3%ADnica%20G%C3%BCD%20Odontolog%C3%ADa%20Integral!5e1!3m2!1ses-419!2scl!4v1773973738055!5m2!1ses-419!2scl"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </section>
+
+        <footer>
+          <p>Clínica GüD © 2026. Todos los derechos reservados.</p>
+          <br>
+          <p>Comprometidos con tu salud bucal, brindando atención integral, cercana y de excelencia para toda la
+            familia.
+          </p>
+        </footer>
+
+        <script>
+          // Scroll suave
+          document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+              e.preventDefault();
+              document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+              });
+            });
+          });
+        </script>
+
+</body>
+
+</html>
